@@ -7,7 +7,7 @@ import HotelCard from './HotelCard'
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import DatePicker from "react-datepicker";
-import 'react-datepicker/dist/react-datepicker.css';
+
 const today = new Date() ;
 const HotelSearchBar = ({ onCityClick = () => {} }) => {
   const [location, setLocation] = useState("delhi");
